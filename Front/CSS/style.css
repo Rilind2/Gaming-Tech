@@ -1,0 +1,118 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	font-family: "Roboto";
+	outline: none;
+	border: none;
+}
+
+html{
+	height: 100%;
+	background-size: 100%;
+		/* background-image: url(../img/as.png); */
+
+}
+body {
+ background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(".../img/as.png"); 
+ 	padding-top:70px;
+}
+.logo {
+	/* width: 820px; */
+	/* padding-left:640px; */
+	width:60px;
+	margin-left:47%;
+}
+
+.card {
+    width: 30%;
+    left: 35%;
+    min-height: 270px;
+    height: auto;
+    position: relative;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+	background: RGB(18,18,18);
+
+
+}
+.post-card {
+    display: flex;
+    justify-content: space-evenly;
+    height: 50px;
+}
+
+.post-card a {
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+    width: 50%;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+
+.post-card>a:hover {
+  background-color:MediumSpringGreen;
+}
+
+.checkbox {
+	padding-right:200px;
+	 position: relative;
+}
+#forgot{
+	padding-right:20px;
+	text-align:right;
+	 position: relative;
+	 align-items: right;
+	
+}
+.hidden {
+    display: none;
+}
+
+
+.form-style {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.form-style label {
+    margin-top: 27px;
+    font-size: 18px;
+    color: white;
+}
+
+.form-style .input {
+    margin-top: 13px;
+	height: 30px;
+	left: 10%;
+    width: 80%;
+    position: relative;
+    border: 0px;
+    padding-left: 10px;
+    border-radius: 36px;
+    background-color: #cae0d9;
+	
+}
+
+.forms {
+    height: auto;
+}
+
+#submit {
+	  margin-top: 30px;
+    width: 40%;
+    left: 30%;
+    background-color:MediumSpringGreen;
+    margin-bottom: 25px;
+}
+
+
+
